@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DFHQ_Example' do
+  pod 'DFHQ', :path => '../'
+
+  target 'DFHQ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
