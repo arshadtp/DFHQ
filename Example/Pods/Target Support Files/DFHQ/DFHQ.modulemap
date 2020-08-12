@@ -1,0 +1,6 @@
+framework module DFHQ {
+  umbrella header "DFHQ-umbrella.h"
+
+  export *
+  module * { export * }
+}
